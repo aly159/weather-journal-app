@@ -35,18 +35,6 @@ textarea {
   text-align: center;
   background-color: dimgrey;
 }
-#entryHolder {
-}
-
-#date {
-}
-
-#temp {
-}
-
-#content {
-}
-
 .title {
   text-align: center;
   background-color: blue;
@@ -63,7 +51,7 @@ label {
 }
 
 input {
-  display: block;
+  display: inline-block;
   height: 60px;
   width: 320px;
   background: #22b2da;
