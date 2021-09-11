@@ -63,7 +63,7 @@ input {
 
 button {
   width: 400px;
-  height: 100px;
+  height: 70px;
   background: #3b4a6b;
   color: #f0d43a;
   font-size: 26px;
@@ -71,6 +71,21 @@ button {
   border: none;
   box-shadow: 2px 4px 5px #444;
   margin-left: 50px;
+  position: relative;
+  bottom: 40px;
+}
+@media (max-height: 870px) {
+  button {
+    bottom: 90px;
+  }
+  textarea {
+    height: 150px;
+  }
+}
+@media (max-width: 890px) {
+  button {
+    width: 200px;
+  }
 }
 h1 {
   font-size: 36px;
