@@ -3,7 +3,7 @@ const link = "http://api.openweathermap.org/data/2.5/weather?zip=";
 const key = "&appid=c5f68e79c780b6d1c76537c396ad01c8";
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+let newDate = d.getMonth() + 1 + "." + d.getDate() + "." + d.getFullYear();
 
 //function that updates the html elements with the api and user data
 const update = async () => {
